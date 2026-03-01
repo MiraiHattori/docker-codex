@@ -1,6 +1,6 @@
-FROM node:lts-noble
+FROM node:lts
 
-RUN npm i -g @continuedev/cli
+RUN npm i -g @openai/codex@latest
 
 WORKDIR /workspace
 ENTRYPOINT ["codex"]
