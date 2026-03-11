@@ -1,7 +1,7 @@
 all: build clean run
 
 build:
-	docker build -t codex-cli:latest .
+	docker build --pull --no-cache -t codex-cli:latest .
 
 clean:
 	docker rm -f codex-cli-latest || true
