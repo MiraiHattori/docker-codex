@@ -1,4 +1,2 @@
-workspace/*
-!workspace/.gitkeep
 codex/*
 !codex/.gitkeep
