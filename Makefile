@@ -1,6 +1,6 @@
 all: danger
 
-danger: build clean run-safe
+danger: build clean run-danger
 
 safe: build clean run-safe
 
